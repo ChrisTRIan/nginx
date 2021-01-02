@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  nginx:
+    container_hostname: nginx
+    hostname: nginx
+    image: nginx
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - /home/pi/Documents/nginx/conf:/etc/nginx
+      - /home/pi/Documents//nginx/certs:/ssl/private
