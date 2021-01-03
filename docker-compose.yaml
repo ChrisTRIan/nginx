@@ -8,6 +8,7 @@ services:
     ports:
       - 80:80
       - 443:443
+      - 9999:9999
     volumes:
       - /home/pi/Documents/nginx/conf:/etc/nginx
       - /home/pi/Documents//nginx/certs:/ssl/private
