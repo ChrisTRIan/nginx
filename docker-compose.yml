@@ -3,7 +3,6 @@ version: '3'
 services:
   nginx:
     container_hostname: nginx
-    hostname: nginx
     image: nginx
     ports:
       - 80:80
