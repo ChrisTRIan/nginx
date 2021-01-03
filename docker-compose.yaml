@@ -10,4 +10,4 @@ services:
       - 443:443
       - 9999:9999
     volumes:
-      - /home/pi/Documents/nginx/conf/nginx.conf:/etc/nginx/conf.d/default.conf
+      - /home/pi/Documents/nginx/config/nginx.conf:/etc/nginx/conf.d/default.conf
